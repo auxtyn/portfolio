@@ -1,7 +1,5 @@
-// import Card from "../components/Card";
-
+import Card from "../components/Card";
 import { useRef } from "react";
-import Card from "../components/card.JSX";
 
 const About = () => {
   const grid2Container = useRef();
