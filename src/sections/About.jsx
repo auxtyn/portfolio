@@ -1,4 +1,6 @@
 import Card from "../components/Card";
+import CopyEmailButton from "../components/CopyEmailButton";
+
 import { useRef } from "react";
 
 const About = () => {
@@ -80,11 +82,11 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="grid-special-color col-span-2  md:col-span-1">
-          <div className="flex flex-col align-items-center justify-center">
-            <p className="text-center headtext">Do you want to start a project together?</p>
-
-          </div>
+        <div className=" flex items-center flex-col justify-center grid-special-color col-span-2  md:col-span-1">
+          <p className="text-center text-white mb-3">
+            Do you want to start a project together?
+          </p>
+          <CopyEmailButton />
         </div>
         <div className="grid-default-color col-span-2  md:col-span-3"></div>
 
