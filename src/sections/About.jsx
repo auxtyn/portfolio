@@ -1,7 +1,9 @@
+// import { Globe } from "@/components/magicui/globe";
 import Card from "../components/Card";
 import CopyEmailButton from "../components/CopyEmailButton";
 
 import { useRef } from "react";
+import { Globe } from "../components/globe";
 
 const About = () => {
   const grid2Container = useRef();
@@ -74,14 +76,18 @@ const About = () => {
           </div>
         </div>
 
-        <div className=" grid-black-color col-span-2  ">
+        <div className=" grid-black-color col-span-2 relative overflow-hidden">
           <div className="z-10 w-50">
             <p className="headText">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars and open to remote world galaxy-wide
+              I'm based in Nigeria and open to remote worldwide
             </p>
           </div>
+          <figure className="pic absolute left-[30%] top-[10%]  ">
+            <Globe />
+          </figure>
         </div>
+
         <div className=" flex items-center flex-col justify-center grid-special-color col-span-2  md:col-span-1">
           <p className="text-center text-white mb-3">
             Do you want to start a project together?

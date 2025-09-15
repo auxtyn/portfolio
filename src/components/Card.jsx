@@ -18,7 +18,6 @@ const Card = ({ style, text, image, containerRef }) => {
       drag
       dragConstraints={containerRef}
       dragElastic={1.05}
-
     >
       {text}
     </motion.div>
