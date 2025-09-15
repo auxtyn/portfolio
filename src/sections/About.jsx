@@ -27,7 +27,7 @@ const About = () => {
           {/* <div className="absolute inset-x-o pointer-events-none-bottom-4 h-1/2 bg-gradient-to-t from-indigo"></div> */}
         </div>
 
-        <div className=" grid-default-color col-span-2 relative">
+        <div className=" grid-default-color col-span-2 relative overflow-hidden">
           <div
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
